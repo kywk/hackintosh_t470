@@ -1,12 +1,11 @@
-# T470-Hackintosh-OC-Monterey-7300u
+# T470-Hackintosh-OC-BigSur
 
-Efi folder updated to Monterey
-Compatible with se sequent specifications
+This project forked from [](), which is made for Monterey.
+Since I still works on Big Sur, I changes Kexts for Big Sur.
 
-Cpu: i5 7300u
+## Devies Info
 
-Gpu: HD620
-
-Wifi card: Intel wifi (should work with any of the intel cards compatible with itwlm)
-
+- CPU: i7-7500u
+- GPU: HD620
+- Wifi card: Intel wifi (should work with any of the intel cards compatible with itwlm)
 
