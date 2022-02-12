@@ -9,3 +9,7 @@ Since I still works on Big Sur, I changes Kexts for Big Sur.
 - GPU: HD620
 - Wifi card: Intel wifi (should work with any of the intel cards compatible with itwlm)
 
+## TODO
+
+- [ ] Wake up
+- [ ] Hardware key
