@@ -432,6 +432,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>ACPIBacklight.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/ACPIBacklight</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
 				<string>VoodooPS2Controller.kext</string>
@@ -714,6 +732,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>Strategy</key>
+				<string>Disable</string>
 			</dict>
 		</array>
 		<key>Emulate</key>
@@ -1065,6 +1085,8 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
+			<key>LogModules</key>
+			<string>*</string>
 			<key>SerialInit</key>
 			<false/>
 			<key>SysReport</key>
@@ -1247,9 +1269,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02741403GUHRPC1M</string>
+			<string>C02713404CDHRPCCB</string>
 			<key>ProcessorType</key>
-			<integer>1541</integer>
+			<integer>0</integer>
 			<key>ROM</key>
 			<data>YMVHd1KE</data>
 			<key>SpoofVendor</key>
@@ -1259,9 +1281,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VJEYFHV2N</string>
+			<string>C02THKYDHV2N</string>
 			<key>SystemUUID</key>
-			<string>238F82AB-CA15-4E15-8FDE-9ACB788466DF</string>
+			<string>EC6C64DF-A62F-401B-9942-8F970F663C7E</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1280,7 +1302,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-CAD6701F7CEA0921</string>
 			<key>BoardSerialNumber</key>
-			<string>C02741403GUHRPC1M</string>
+			<string>C02713404CDHRPCCB</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1290,7 +1312,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02VJEYFHV2N</string>
+			<string>C02THKYDHV2N</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1314,9 +1336,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VJEYFHV2N</string>
+			<string>C02THKYDHV2N</string>
 			<key>SystemUUID</key>
-			<string>238F82AB-CA15-4E15-8FDE-9ACB788466DF</string>
+			<string>EC6C64DF-A62F-401B-9942-8F970F663C7E</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
